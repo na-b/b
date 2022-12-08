@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/*body {font-family: Arial, Helvetica, sans-serif;}
+form { solid #f1f1f1;}*/
+
+input[type=text], input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/*.container {
+  padding: 16px;
+  width: 50%;
+  height: 50%;
+  align:center;
+}
+
+span.psw {
+  
+  padding-top: 16px;
+}*/
+
+</style>
+</head>
+<body>
+<center>
+<h2>Login Form</h2>
+
+<form  action="form.html"  width: 500px>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+   <a href = "form.html"><button type = "submit">Login </button></a><br>
+ 
+
+
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</center>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<html>
+   <title> Experiment 3 </title>
+   <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+                .container {
+                          padding: 40px;
+                  }
+                 input[type = text], input[type=password] {
+                          width: 25%;
+                           height:3%;
+                           padding: 15px;
+                           margin: 5px 0 22px 0;
+                           display:inline-block;
+                          border-radius: 5px;
+                   
+                  }
+                  
+                  div {
+                          padding: 10px 0;
+                 }
+                 hr {
+                          border: 1px solid #f1f1f1;
+                }
+                label {
+                          font-size: 18px;
+                          margin-right:10px;
+                }
+                button {
+                          background-color: lightgreen;
+                          padding: 16px 20px;
+                          margin: 8px 0;
+                          cursor: pointer;
+                          width: 100px;
+                          height: 5px;
+                          opacity: 0.9;
+                          text-align:center;
+                          line-height: 6px;
+                          font-size: 16px;
+                          
+                }
+                button:hover {
+                         opacity: 1;
+                 }
+          </style>
+    </head>
+   <body>
+         <form action="home.html">
+         <div class = "container" >
+         <h1><center>Student Course Registration Form</center></h1>
+         <center>
+         <hr><br>
+         <label><b> Firstname: </b></label>
+         <input type = "text" name = "Firstname" size = "15" required /><br>
+          <label> <b>Lastname: </b></label>
+         <input type = "text" name = "Lastname" size = "15" require/>
+         <div>
+         <label> Course: </label>
+         <select width = "25%">
+         <option value = "Advanced Data Structures" >Advanced Data Structures</option>
+         <option value = "Computer Networks" > Computer Networks</option>
+         <option value = "AI"> Artificial Intelligence</option>
+         <option value = "Ethical Hacking"> Ethical Hacking</option>
+         </select>
+         </div>
+        <div>
+        <label> Gender : </label>
+        <input type = "radio" value = "Male" name = "gender"  > Male
+         <input type = "radio" value = "Female" name = "gender" >Female
+         <input type = "radio" value = "Other" name = "gender"> Other<br>
+         </div>
+        <label for = "RollNo"><b>RollNo:</b></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+       <input type = "text"  name = "rollno" required><br>
+        <label for = "phone"><b>Phone:</b> </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type = "text" name = "phone"  size = "10" required><br>
+         &nbsp;
+          <label for = "email"><b>EmailID:</b></label>
+       <input type = "text"  name = "email" size = "15" required><br>
+        <a href = "home.html"><button type = "submit">Submit</button></a><br>
+       </center>
+   </form>
+   </body>
+</html> 
